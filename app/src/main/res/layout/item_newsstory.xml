@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dividerColor"
+    android:paddingBottom="1dp">
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <!--android:layout_margin="8dp"-->
+        <!--app:cardCornerRadius="4dp"-->
+        <!--app:cardElevation="4dp"-->
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/view_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?android:attr/selectableItemBackground" >
+
+
+            <ImageView
+                android:id="@+id/imageview_all_photo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/textview_all_title"
+                app:layout_constraintDimensionRatio="w,16:9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/arruddaf_park_and_flowers" />
+
+            <TextView
+                android:id="@+id/textview_all_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Phone games put Colombia's indigenous cultures in palm of children's hands"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textview_all_author"
+                app:layout_constraintEnd_toEndOf="@+id/textview_all_date"
+                app:layout_constraintStart_toStartOf="@+id/textview_all_author" />
+
+            <TextView
+                android:id="@+id/textview_all_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="16dp"
+                android:text="Joe Parkin Daniels"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textview_all_date"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp" />
+
+            <TextView
+                android:id="@+id/textview_all_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="2018-01-05"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textview_all_author"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginRight="16dp" />
+
+            <TextView
+                android:id="@+id/textview_all_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:background="@color/colorPrimary"
+                android:padding="4dp"
+                android:text="Technology"
+                android:textColor="#FFFFFF"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                app:layout_constraintBottom_toBottomOf="@+id/imageview_all_photo"
+                app:layout_constraintStart_toStartOf="@+id/imageview_all_photo"
+                android:layout_marginLeft="16dp" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_all_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/favorite_circle"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textview_all_section"
+                app:srcCompat="@drawable/ic_favorite_border_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_all_share"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="@+id/imagebutton_all_favorite"
+                app:layout_constraintStart_toStartOf="@+id/imagebutton_all_favorite"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_share_black_36dp" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

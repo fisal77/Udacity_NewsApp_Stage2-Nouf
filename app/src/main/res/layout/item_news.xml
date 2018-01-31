@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="8dp"-->
+        <!--app:cardCornerRadius="4dp"-->
+        <!--app:cardElevation="4dp">-->
+
+        <!--<android.support.constraint.ConstraintLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+    <!--<TextView-->
+        <!--android:id="@+id/textview_all_section"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginStart="16dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:padding="4dp"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Caption"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--tools:text="Technology" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textview_all_title"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:ellipsize="end"-->
+        <!--android:maxLines="2"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/textview_all_section"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textview_all_section"-->
+        <!--tools:text="Phone games put Colombia's indigenous cultures in palm of children's hands" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textview_all_author"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Caption"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/textview_all_date"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/textview_all_title"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textview_all_title"-->
+        <!--tools:text="Joe Parkin Daniels" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textview_all_date"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Caption"-->
+        <!--app:layout_constraintBaseline_toBaselineOf="@+id/textview_all_section"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/textview_all_title"-->
+        <!--tools:text="2018-01-05" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imagebutton_all_favorite"-->
+        <!--android:layout_width="24dp"-->
+        <!--android:layout_height="24dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:background="@null"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/textview_all_title"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textview_all_title"-->
+        <!--app:srcCompat="@drawable/ic_favorite_border_white_24dp" />-->
+<!--</android.support.constraint.ConstraintLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+</android.support.constraint.ConstraintLayout>
